@@ -1,0 +1,12 @@
+VIEW Attachments_Files AS SELECT
+  Files_0.ID,
+  Files_0.createdAt,
+  Files_0.createdBy,
+  Files_0.modifiedAt,
+  Files_0.modifiedBy,
+  Files_0.content,
+  Files_0.mediaType,
+  Files_0.fileName,
+  Files_0.size,
+  Files_0.url
+FROM miyasuta_media_Files AS Files_0
