@@ -15,7 +15,7 @@ controllerName="attachmentapp.ext.main.Main">
 			>
 				<upload:UploadSet
 					id="uploadSet"
-					instantUpload="false"
+					instantUpload="true"
 					showIcons="true"
 					uploadEnabled="true"
 					dragDropConfig="null"
